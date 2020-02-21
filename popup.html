@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Time Limit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div id="main">
+      <h2 id="title">Time limit for browsing (max 2 hrs)</h2>
+      <h3 id="title">Enter a number in minutes between 1 and 120</h3>
+      <p><span class="note">Please note: this window and all of it's currently open tabs will automatically be closed when the timer runs out!</span></p>
+      <input id="sessionPeriodInput" type="number" value="" min="0" max="120" placeholder="Insert time in minutes"/>
+      <div id="buttons_container">
+        <button type="button" id="startSession">Start Timer</button>
+        <button type="button" id="removeSession">Clear Timer</button>
+        <button type="button" id="getSessionInfo">Information</button>
+      </div>
+    </div>
+
+  <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
